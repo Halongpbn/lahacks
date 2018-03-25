@@ -32,3 +32,79 @@ input[type=text], select {
 input[type=submit]:hover {
     background-color: #C7D3DD;
 }
+/*the map*/
+#map {
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        position: static !important;
+        overflow: visible;
+}
+
+/*the 3 dot menu*/
+#menu{
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  right:30px;
+  top: 35px;
+  z-index: 2;
+}
+/*entire overlay set*/
+.overlay {
+   height: 100%;
+   width: 100%;
+   display: none;
+   position: absolute;
+   z-index: 5;
+   top: 0;
+   left: 0;
+   background-color: white;
+}
+/*the about and submit text*/
+.overlay-content {
+  position: fixed;
+   margin-top: 6%;
+   right: 10%;
+   z-index: 6;
+   font-family: 'Montserrat';
+}
+/*each separate about and submit*/
+#ele {
+   padding: 8px, 8px, 8px,8px;
+   font-size: 14px;
+   text-decoration: none;
+   color: #000000;
+   display: block;
+   transition: 0.3s;
+   background-color: #ffffff;
+   margin-bottom: 10px;
+   right: 8px;
+}
+/* the x icon*/
+.overlay a{
+
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+  padding: 10px;
+}
+/*the x icon*/
+.overlay .closebtn {
+   position: absolute;
+   top: 20px;
+   right: 50px;
+   font-size: 50px;
+}
+/*animation*/
+@media screen and (max-height: 450px) {
+ .overlay a {font-size: 20px}
+ .overlay .closebtn {
+   font-size: 40px;
+   top: 15px;
+   right: 35px;
+ }
+}
