@@ -32,15 +32,6 @@ input[type=text], select {
 input[type=submit]:hover {
     background-color: #C7D3DD;
 }
-/*the map*/
-#map {
-        height: 100%;
-        width: 100%;
-        z-index:-1;
-        position: static !important;
-        overflow: visible;
-}
-
 /*the 3 dot menu*/
 #menu{
   position: fixed;
