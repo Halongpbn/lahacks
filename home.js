@@ -9,8 +9,8 @@ function closeNav() {
 }
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 41.850033, lng: -87.6500523},
-    zoom: 11,
+    center: {lat: 37.7749, lng: -122.4194},
+    zoom: 15,
     disableDefaultUI: true
   });
 
