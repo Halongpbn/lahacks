@@ -20,13 +20,41 @@ body {
   top: 35px;
   z-index: 2;
 }
+/*search iconp*/
+#search {
+position: fixed; 
+width: 30px;
+height: 30px;
+left: 35px;
+top: 35px;
+z-index: 2;
+}
+#navbutton {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 10%;
+        background-color: #d0ff00;
+        z-index: 2;
+        border-radius: 300px;
+        right: 10%;
+        box-shadow: 0px 10px 40px grey;
+}
+#nav {
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        bottom: 12%;
+        z-index: 3;
+        right: 12%;
+}
 /*entire overlay set*/
 .overlay {
    height: 100%;
    width: 100%;
    display: none;
    position: fixed;
-   z-index: 5;
+   z-index: 1;
    top: 0;
    left: 0;
    background-color: white;
@@ -34,9 +62,9 @@ body {
 /*the about and submit text*/
 .overlay-content {
   position: fixed;
-   margin-top: 100px;
+   margin-top: 30px;
    right: 10%;
-   z-index: 6;
+   z-index: 2;
    font-family: 'Montserrat';
 }
 /*each separate about and submit*/
@@ -61,14 +89,13 @@ body {
   display: block;
   transition: 0.3s;
   padding: 10px;
-  right: 5px
 }
 /*the x icon*/
 .overlay .closebtn {
-   position: absolute;
+   position: none;
    top: 20px;
    right: 50px;
-   font-size: 50px;
+   font-size: 60px;
 }
 /*animation*/
 @media screen and (max-height: 450px) {
