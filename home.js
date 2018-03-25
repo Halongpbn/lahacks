@@ -190,11 +190,12 @@ function initMap() {
           }
         ]
   });
+    
 
   var layer = new google.maps.FusionTablesLayer({
     query: {
-      select: 'Address',
-      from: '1PobwJP0VPdMgMQXpQQpEvV4Z9CvneitWC5okWG_D#card:id=2'
+      select: 'Location',
+      from: '1PobwJP0VPdMgMQXpQQpEvV4Z9CvneitWC5okWG_D'
     }
   });
   layer.setMap(map);
