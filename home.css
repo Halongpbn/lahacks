@@ -1,6 +1,5 @@
 #map {
-        height: 1920;
-        width: 1080;
+        height: 100%;
         z-index: -1;
       }
 body {
