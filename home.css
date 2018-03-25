@@ -44,7 +44,7 @@ z-index: 2;
         position: fixed;
         width: 30px;
         height: 30px;
-        color: #ffffff;
+        background-color: #ffffff;
         bottom: 15%;
         z-index: 3;
         right: 15%;
