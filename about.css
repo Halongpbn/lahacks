@@ -5,12 +5,33 @@ body
 }
 /*the 3 dot menu*/
 #menu{
-  position: absolute;
+ #menu{
+  position: fixed;
   width: 30px;
   height: 30px;
-  right:15px;
-  top: 16px;
+  right:30px;
+  top: 35px;
   z-index: 2;
+}
+/*search iconp*/
+#search {
+position: fixed; 
+width: 30px;
+height: 30px;
+left: 35px;
+top: 35px;
+z-index: 2;
+}
+#navbutton {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 10%;
+        background-color: #000000;
+        z-index: 2;
+        border-radius: 300px;
+        margin: 0 auto;
+        vertical-align: "middle";
 }
 /*entire overlay set*/
 .overlay {
@@ -25,22 +46,21 @@ body
 }
 /*the about and submit text*/
 .overlay-content {
-  position: absolute;
-   top: 10%;
-   width: 50%;
+  position: fixed;
    margin-top: 30px;
-   right: 45px;
+   right: 10%;
    z-index: 2;
+   font-family: 'Montserrat';
 }
 /*each separate about and submit*/
 #ele {
    padding: 8px, 8px, 8px,8px;
+   font-size: 14px;
    text-decoration: none;
-   font-size: 36px;
-   color: #818181;
+   color: #000000;
    display: block;
    transition: 0.3s;
-   background-color: #E5E5E5;
+   background-color: #ffffff;
    margin-bottom: 10px;
    right: 8px;
 }
@@ -50,7 +70,7 @@ body
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #000000;
   display: block;
   transition: 0.3s;
   padding: 10px;
@@ -59,7 +79,7 @@ body
 .overlay .closebtn {
    position: none;
    top: 20px;
-   right: 45px;
+   right: 50px;
    font-size: 60px;
 }
 /*animation*/
