@@ -7,40 +7,18 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.display = "none";
 }
-var map, infoWindow;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          zoom: 6,
-          disableDefaultUI: true
-        });
-        infoWindow = new google.maps.InfoWindow;
+function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 41.850033, lng: -87.6500523},
+    zoom: 11,
+    disableDefaultUI: true
+  });
 
-        // Try HTML5 geolocation.
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(function(position) {
-            var pos = {
-              lat: position.coords.latitude,
-              lng: position.coords.longitude
-            };
-
-            infoWindow.setPosition(pos);
-            infoWindow.setContent('Location found.');
-            infoWindow.open(map);
-            map.setCenter(pos);
-          }, function() {
-            handleLocationError(true, infoWindow, map.getCenter());
-          });
-        } else {
-          // Browser doesn't support Geolocation
-          handleLocationError(false, infoWindow, map.getCenter());
-        }
-      }
-
-      function handleLocationError(browserHasGeolocation, infoWindow, pos) {
-        infoWindow.setPosition(pos);
-        infoWindow.setContent(browserHasGeolocation ?
-                              'Error: The Geolocation service failed.' :
-                              'Error: Your browser doesn\'t support geolocation.');
-        infoWindow.open(map);
-      }
+  var layer = new google.maps.FusionTablesLayer({
+    query: {
+      select: 'Address',
+      from: '1PobwJP0VPdMgMQXpQQpEvV4Z9CvneitWC5okWG_D#card:id=2'
+    }
+  });
+  layer.setMap(map);
+}
