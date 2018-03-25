@@ -12,17 +12,6 @@ body {
   top: 35px;
   z-index: 2;
 }
-#navbutton {
-        position: fixed;
-        width: 60px;
-        height: 60px;
-        bottom: 10%;
-        background-color: #000000;
-        z-index: 3;
-        border-radius: 300px;
-        margin: 0 auto;
-        vertical-align: "middle";
-}
 /*entire overlay set*/
 .overlay {
    height: 100%;
@@ -64,6 +53,7 @@ body {
   display: block;
   transition: 0.3s;
   padding: 10px;
+  right: 5px
 }
 /*the x icon*/
 .overlay .closebtn {
