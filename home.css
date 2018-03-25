@@ -37,6 +37,7 @@ z-index: 2;
         bottom: 35px;
         background-color: #000000;
         z-index: 2;
+        border-radius: 300;
 }
 /*entire overlay set*/
 .overlay {
