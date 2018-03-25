@@ -53,7 +53,7 @@ z-index: 2;
    height: 100%;
    width: 100%;
    display: none;
-   position: fixed;
+   position: absolute;
    z-index: 5;
    top: 0;
    left: 0;
