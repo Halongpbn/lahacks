@@ -16,7 +16,7 @@ body {
   width: 22px;
   height: 22px;
   right:15px;
-  top: 16px;
+  top: 15px;
   z-index: 0;
 }
 .overlay {
@@ -34,19 +34,19 @@ body {
   position: absolute;
    top: 10%;
    width: 50%;
-   margin-top: 30px;
-   right: 45px;
+   margin-top: 0px;
+   right: 0px;
 }
 
 #ele {
    text-decoration: none;
-   font-size: 21px;
+   font-size: 16px;
    font-family: 'Montserrat';
    color: #000000;
    transition: 0.3s;
-   background-color: #E5E5E5;
-   margin-bottom: 10px;
-   right: 8px;
+   background-color: #ffffff;
+   margin-bottom: 5px;
+   right: 5px;
 }
 .overlay a{
 
@@ -59,10 +59,13 @@ body {
   padding: 10px;
 }
 .overlay .closebtn {
-   position: absolute;
-   top: 20px;
-   right: 45px;
-   font-size: 60px;
+   position: fixed;
+   height: 22px;
+   width: 22px;
+   top: -5px;
+   right: 8px;
+   font-size: 42px;
+   color: #000000;
 }
 
 @media screen and (max-height: 450px) {
