@@ -20,6 +20,14 @@ body {
   top: 35px;
   z-index: 2;
 }
+/*search iconp*/
+#search {
+position: fixed; 
+width: 30px;
+height: 30px;
+left: 30px;
+z-index: 2;
+}
 /*entire overlay set*/
 .overlay {
    height: 100%;
