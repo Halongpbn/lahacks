@@ -2,3 +2,70 @@ body
 {
   font-family: Montserrat;
 }
+#menu{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right:15px;
+  top: 16px;
+  z-index: 2;
+}
+/*entire overlay set*/
+.overlay {
+   height: 100%;
+   width: 100%;
+   display: none;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: white;
+}
+/*the about and submit text*/
+.overlay-content {
+  position: absolute;
+   top: 10%;
+   width: 50%;
+   margin-top: 30px;
+   right: 45px;
+   z-index: 2;
+}
+/*each separate about and submit*/
+#ele {
+   padding: 8px, 8px, 8px,8px;
+   text-decoration: none;
+   font-size: 36px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+   background-color: #E5E5E5;
+   margin-bottom: 10px;
+   right: 8px;
+}
+/* the x icon*/
+.overlay a{
+
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  padding: 10px;
+}
+/*the x icon*/
+.overlay .closebtn {
+   position: none;
+   top: 20px;
+   right: 45px;
+   font-size: 60px;
+}
+/*animation*/
+@media screen and (max-height: 450px) {
+ .overlay a {font-size: 20px}
+ .overlay .closebtn {
+   font-size: 40px;
+   top: 15px;
+   right: 35px;
+ }
+}
