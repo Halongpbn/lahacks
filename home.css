@@ -1,3 +1,4 @@
+//map size and positioning
 #map {
         height: 100%;
         width: 100%;
@@ -6,30 +7,32 @@
         overflow: visible;
 
 }
+//font
 body {
   font-family: courier;
   text-align: center;
 }
-
+//vertical menu
 #menu{
   position: absolute;
   width: 22px;
   height: 22px;
   right:15px;
   top: 15px;
-  z-index: -1;
+  z-index: 2;
 }
+//hidden popup
 .overlay {
    height: 100%;
    width: 100%;
    display: none;
    position: fixed;
-   z-index: 3;
+   z-index: 1;
    top: 0;
    left: 0;
    background-color: white;
 }
-
+//lol idk
 .overlay-content {
   position: absolute;
    top: 10%;
@@ -37,7 +40,7 @@ body {
    margin-top: 0px;
    right: 0px;
 }
-
+//element of popup(about and submit)
 #ele {
    text-decoration: none;
    font-size: 16px;
@@ -48,26 +51,21 @@ body {
    margin-bottom: 5px;
    right: 5px;
 }
-.overlay a{
-
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-  padding: 10px;
-}
+//x button
 .overlay .closebtn {
+   display: block;
+  transition: 0.3s;
+   padding: 8px;
+  text-decoration: none;
    position: fixed;
    height: 22px;
    width: 22px;
    top: -5px;
    right: 8px;
    font-size: 42px;
-   color: #000000;
+   color: #818181;
 }
-
+//animation
 @media screen and (max-height: 450px) {
  .overlay a {font-size: 20px}
  .overlay .closebtn {
