@@ -5,22 +5,12 @@ body
 }
 /*the 3 dot menu*/
 #menu{
- #menu{
   position: fixed;
   width: 30px;
   height: 30px;
   right:30px;
   top: 35px;
   z-index: 2;
-}
-/*search iconp*/
-#search {
-position: fixed; 
-width: 30px;
-height: 30px;
-left: 35px;
-top: 35px;
-z-index: 2;
 }
 #navbutton {
         position: fixed;
