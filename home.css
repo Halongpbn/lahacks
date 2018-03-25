@@ -54,7 +54,7 @@ z-index: 2;
    width: 100%;
    display: none;
    position: fixed;
-   z-index: 1;
+   z-index: 5;
    top: 0;
    left: 0;
    background-color: white;
@@ -64,7 +64,7 @@ z-index: 2;
   position: fixed;
    margin-top: 6%;
    right: 10%;
-   z-index: 2;
+   z-index: 6;
    font-family: 'Montserrat';
 }
 /*each separate about and submit*/
