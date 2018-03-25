@@ -1,7 +1,15 @@
-body
-{
-  font-family: Montserrat;
+/*the map*/
+#map {
+        height: 100%;
+        width: 100%;
+        z-index:-1;
+        position: static !important;
+        overflow: visible;
 }
+/*mainly text, body*/
+body {
+  font-family: 'Montserrat';
+  text-align: center;
 }
 /*the 3 dot menu*/
 #menu{
