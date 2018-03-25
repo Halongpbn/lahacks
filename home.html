@@ -1,9 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> lahhacks </title>
+  <title> Cyclr </title>
+  <link rel="stylesheet" href="home.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  <h1> bikemapos </h1>
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a id = "ele" href="#">About</a>
+      <a href="#" id = "ele">Submit</a>
+    </div>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+    <img id = "menu" src ="more-vertical.svg"></span>
+<div id="map"></div>
+  <script src = "home.js"></script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjpFJ8ci_wfe4RwTy6PsxVpbNvcCuLJBg&callback=initMap">
+    </script>
 </body>
 </html>
