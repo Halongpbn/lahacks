@@ -26,7 +26,7 @@ body {
 /*the about and submit text*/
 .overlay-content {
   position: fixed;
-   margin-top: 30px;
+   margin-top: 100px;
    right: 10%;
    z-index: 6;
    font-family: 'Montserrat';
@@ -57,10 +57,10 @@ body {
 }
 /*the x icon*/
 .overlay .closebtn {
-   position: none;
+   position: absolute;
    top: 20px;
    right: 50px;
-   font-size: 60px;
+   font-size: 50px;
 }
 /*animation*/
 @media screen and (max-height: 450px) {
