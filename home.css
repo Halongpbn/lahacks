@@ -4,7 +4,7 @@
         width: 100%;
         z-index:-1;
         position: static !important;
-        overflow: visible,
+        overflow: visible;
 }
 /*mainly text, body*/
 body {
@@ -34,21 +34,20 @@ body {
 /*the about and submit text*/
 .overlay-content {
   position: absolute;
-   top: 10%;
-   width: 50%;
    margin-top: 30px;
    right: 45px;
    z-index: 2;
+   font-family: 'Montserrat';
 }
 /*each separate about and submit*/
 #ele {
    padding: 8px, 8px, 8px,8px;
+   font-size: 14px;
    text-decoration: none;
-   font-size: 36px;
-   color: #818181;
+   color: #000000;
    display: block;
    transition: 0.3s;
-   background-color: #E5E5E5;
+   background-color: #ffffff;
    margin-bottom: 10px;
    right: 8px;
 }
@@ -58,7 +57,7 @@ body {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #000000;
   display: block;
   transition: 0.3s;
   padding: 10px;
@@ -67,7 +66,7 @@ body {
 .overlay .closebtn {
    position: none;
    top: 20px;
-   right: 45px;
+   right: 50px;
    font-size: 60px;
 }
 /*animation*/
