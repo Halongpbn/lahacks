@@ -13,7 +13,7 @@ body {
 }
 /*the 3 dot menu*/
 #menu{
-  position: absolute;
+  position: fixed;
   width: 30px;
   height: 30px;
   right:15px;
