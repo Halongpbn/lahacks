@@ -92,10 +92,10 @@ z-index: 2;
 }
 /*the x icon*/
 .overlay .closebtn {
-   position: none;
+   position: absolute;
    top: 20px;
    right: 50px;
-   font-size: 650px;
+   font-size: 50px;
 }
 /*animation*/
 @media screen and (max-height: 450px) {
