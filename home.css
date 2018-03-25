@@ -1,7 +1,7 @@
 /*the map*/
 #map {
-        height: 1920;
-        width: 1080;
+        height: 100%;
+        width: 100%;
         z-index:-1;
         position: static !important;
         overflow: visible;
