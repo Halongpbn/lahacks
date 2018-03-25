@@ -1,12 +1,3 @@
-/* Open */
-function openNav() {
-    document.getElementById("myNav").style.display = "block";
-}
-
-/* Close */
-function closeNav() {
-    document.getElementById("myNav").style.display = "none";
-}
 var map, infoWindow;
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
@@ -44,4 +35,13 @@ var map, infoWindow;
                               'Error: Your browser doesn\'t support geolocation.');
         infoWindow.open(map);
       }
+/* Open */
+function openNav() {
+    document.getElementById("myNav").style.display = "block";
+}
+
+/* Close */
+function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+}
 
