@@ -1,9 +1,11 @@
 #map {
-        position: absolute;
         height: 100%;
-        z-index: -1;
+        width: 100%;
+        z-index:-1;
+        position: static !important;
         overflow: visible;
-      }
+
+}
 body {
   font-family: courier;
   text-align: center;
