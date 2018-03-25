@@ -29,6 +29,13 @@ left: 35px;
 top: 35px;
 z-index: 2;
 }
+#circle {
+        width: 100px;
+        height: 100px;
+        align: center;
+        bottom: 35px;
+        color: #000000:
+}
 /*entire overlay set*/
 .overlay {
    height: 100%;
