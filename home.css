@@ -33,7 +33,7 @@ body {
 }
 /*the about and submit text*/
 .overlay-content {
-  position: absolute;
+  position: fixed;
    margin-top: 30px;
    right: 45px;
    z-index: 2;
