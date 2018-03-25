@@ -36,7 +36,6 @@ input[type=text], select {
 input[type=submit]:hover {
     background-color: #C7D3DD;
 }
-/*the 3 dot menu*/
 #menu{
   position: fixed;
   width: 30px;
@@ -91,8 +90,6 @@ input[type=submit]:hover {
 /*the x icon*/
 .overlay .closebtn {
    position: absolute;
-   z-index: 7;
-   margin-bottom: 20px;
    top: 20px;
    right: 50px;
    font-size: 50px;
