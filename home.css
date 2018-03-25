@@ -30,6 +30,7 @@ top: 35px;
 z-index: 2;
 }
 #navbutton {
+        position: fixed;
         width: 100px;
         height: 100px;
         align: center;
