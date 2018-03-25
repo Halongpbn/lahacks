@@ -33,7 +33,7 @@ z-index: 2;
         position: fixed;
         width: 100px;
         height: 100px;
-        align: center;
+        left: 300px;
         bottom: 35px;
         background-color: #000000;
         z-index: 2;
